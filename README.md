@@ -6,6 +6,8 @@ This repository contains code for a CIFAR-10 image classification model using a 
 ## Author
 - Name: Wenxuan Wu
 - Email: wx2327@nyu.edu
+- Institution: New York University Tandon School of Engineering
+- Location: Brooklyn, NY, 11201
 
 ## Repository Structure
 - `model.py`: Contains the model architecture definition (SE-ResNet18 with width factor)
@@ -56,3 +58,7 @@ The model achieves:
 - 96.00% validation accuracy on the CIFAR-10 validation set
 - 92.51% accuracy on the standard CIFAR-10 test set
 - 80.91% accuracy on the Kaggle custom test set
+
+## Training Curves
+![Training Curves](/output/se_resnet18_training_curves.png)
+*Training and validation loss/accuracy curves over 50 epochs*
